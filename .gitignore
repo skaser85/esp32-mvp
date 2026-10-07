@@ -1,0 +1,19 @@
+# Host-side Nob compilation artifacts
+nob
+nob.old
+*.o
+
+# Target microcontroller compilation directories
+build/
+desk_tx/build/
+monitor_rx/build/
+
+# ESP-IDF dynamically generated hardware environment states
+sdkconfig
+sdkconfig.old
+sdkconfig.ci
+.idf_target
+
+# OS specific files
+.DS_Store
+
